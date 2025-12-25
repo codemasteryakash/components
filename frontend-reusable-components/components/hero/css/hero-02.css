@@ -1,0 +1,81 @@
+.hero-2 {
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #111, #333);
+  color: #fff;
+  text-align: center;
+}
+
+.hero-2-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Badge */
+.hero-2-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.hero-2-title {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+/* Text */
+.hero-2-text {
+  font-size: 16px;
+  color: #ddd;
+  margin-bottom: 32px;
+}
+
+/* Buttons */
+.hero-2-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.hero-2-btn {
+  padding: 12px 28px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.hero-2-btn-primary {
+  background-color: #fff;
+  color: #111;
+}
+
+.hero-2-btn-primary:hover {
+  background-color: #e5e5e5;
+}
+
+.hero-2-btn-outline {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.hero-2-btn-outline:hover {
+  background-color: #fff;
+  color: #111;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-2-title {
+    font-size: 32px;
+  }
+
+  .hero-2-actions {
+    flex-direction: column;
+  }
+}
