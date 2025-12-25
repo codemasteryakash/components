@@ -1,0 +1,16 @@
+.search-5 {
+  position: relative;
+  width: 280px;
+}
+.search-5 input {
+  width: 100%;
+  padding: 12px 40px 12px 14px;
+  border: 1px solid #ccc;
+}
+.search-5 i {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #777;
+}

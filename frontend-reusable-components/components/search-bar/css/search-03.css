@@ -1,0 +1,17 @@
+.search-3 {
+  display: flex;
+  width: 300px;
+}
+.search-3 input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #111;
+  outline: none;
+}
+.search-3 button {
+  background: #111;
+  color: #fff;
+  border: none;
+  padding: 0 16px;
+  cursor: pointer;
+}

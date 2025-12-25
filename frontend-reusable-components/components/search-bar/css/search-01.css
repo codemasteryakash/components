@@ -1,0 +1,12 @@
+.search-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  width: 260px;
+}
+.search-1 input {
+  border: none;
+  outline: none;
+}
