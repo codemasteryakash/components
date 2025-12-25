@@ -1,0 +1,17 @@
+.btn {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 14px 32px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-gradient {
+  color: #fff;
+  background: linear-gradient(135deg, #111, #555);
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+}
