@@ -1,0 +1,31 @@
+.footer-3 {
+  background-color: #111;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.footer-3-container {
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.footer-3-col h4 {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.footer-3-col a {
+  display: block;
+  margin-bottom: 8px;
+  color: #ccc;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-3-col a:hover {
+  color: #fff;
+}

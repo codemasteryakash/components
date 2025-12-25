@@ -1,0 +1,31 @@
+.footer-4 {
+  background: linear-gradient(135deg, #111, #333);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.footer-4 h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-4-icons {
+  margin-bottom: 20px;
+}
+
+.footer-4-icons i {
+  font-size: 18px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.footer-4-icons i:hover {
+  transform: scale(1.2);
+}
+
+.footer-4 p {
+  font-size: 14px;
+  opacity: 0.8;
+}
