@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Reusable Components</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- Base CSS -->
+  <link rel="stylesheet" href="css/base.css" />
+
+  <!-- Components CSS -->
+  <link rel="stylesheet" href="./components/header/header.html" />
+  <link rel="stylesheet" href="components/hero-1/hero-1.css" />
+  <link rel="stylesheet" href="css/search-01.css" />
+  <link rel="stylesheet" href="css/card-base.css" />
+  <link rel="stylesheet" href="css/button-01.css" />
+  <link rel="stylesheet" href="css/footer-02.css" />
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+  <div class="header-container">
+    <div class="header-logo">MyLibrary</div>
+
+    <nav class="header-nav">
+      <ul class="header-list">
+        <li class="header-item"><a class="header-link" href="#">Home</a></li>
+        <li class="header-item"><a class="header-link" href="#">Components</a></li>
+        <li class="header-item"><a class="header-link" href="#">Docs</a></li>
+      </ul>
+    </nav>
+
+    <button class="header-btn">Get Started</button>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-container">
+    <h1 class="hero-title">Frontend Reusable Components</h1>
+    <p class="hero-text">
+      Build once. Reuse everywhere. HTML & CSS component system.
+    </p>
+  </div>
+</section>
+
+<!-- ================= SEARCH BAR ================= -->
+<section style="padding: 40px 20px;">
+  <h2>Search Component</h2>
+  <br />
+  <div class="search-1">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" placeholder="Search components..." />
+  </div>
+</section>
+
+<!-- ================= CARD ================= -->
+<section style="padding: 40px 20px;">
+  <h2>Card Component</h2>
+  <br />
+  <div class="card card-md">
+    <img src="https://via.placeholder.com/320x180" />
+    <div class="card-body">
+      <h3 class="card-title">Product Card</h3>
+      <p class="card-text">
+        This is a reusable card component.
+      </p>
+      <div class="card-actions">
+        <button class="card-btn">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BUTTON ================= -->
+<section style="padding: 40px 20px;">
+  <h2>Button Component</h2>
+  <br />
+  <button class="btn btn-primary">Primary Button</button>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer-2">
+  <div class="footer-2-container">
+
+    <div class="footer-2-brand">
+      <h3 class="footer-2-logo">
+        <i class="fa-solid fa-layer-group"></i> MyLibrary
+      </h3>
+      <p class="footer-2-desc">
+        Personal frontend reusable components system.
+      </p>
+    </div>
+
+    <ul class="footer-2-links">
+      <li><i class="fa-solid fa-house"></i> <a href="#">Home</a></li>
+      <li><i class="fa-solid fa-box"></i> <a href="#">Components</a></li>
+      <li><i class="fa-solid fa-envelope"></i> <a href="#">Contact</a></li>
+    </ul>
+
+  </div>
+</footer>
+
+</body>
+</html>
